@@ -1,6 +1,6 @@
 {
-  "name": "capcay-llm",
-  "version": "0.1.0",
+  "name": "@caya8205-2/capcay-llm",
+  "version": "0.1.1",
   "description": "Lightweight unified LLM client for Node.js — Groq, Anthropic, OpenAI with one interface",
   "type": "module",
   "main": "./dist/index.js",
@@ -23,6 +23,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/caya8205-2/capcay-llm.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "llm",

@@ -7,9 +7,9 @@ Client LLM ringan untuk Node.js dengan satu interface yang mendukung Groq, Anthr
 ## Instalasi
 
 ```bash
-npm install capcay-llm
+npm install @caya8205-2/capcay-llm@0.1.1
 # atau
-pnpm add capcay-llm
+pnpm add @caya8205-2/capcay-llm@0.1.1
 ```
 
 ## Penggunaan
@@ -123,6 +123,10 @@ try {
   }
 }
 ```
+
+## About
+
+Dibuat just for fun, dan eksperimen untuk belajar membuat package npm. :))
 
 ## Lisensi
 
