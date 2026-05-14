@@ -20,6 +20,10 @@
     "dev": "tsc --watch",
     "prepublishOnly": "pnpm build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caya8205-2/capcay-llm.git"
+  },
   "keywords": [
     "llm",
     "groq",

@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/capcay-llm.svg)](https://www.npmjs.com/package/capcay-llm)
+[![npm downloads](https://img.shields.io/npm/dm/capcay-llm.svg)](https://www.npmjs.com/package/capcay-llm)
 # capcay-llm
 
 Client LLM ringan untuk Node.js dengan satu interface yang mendukung Groq, Anthropic, dan OpenAI.
