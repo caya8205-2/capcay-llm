@@ -1,6 +1,6 @@
 {
   "name": "@caya8205-2/capcay-llm",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lightweight unified LLM client for Node.js — Groq, Anthropic, OpenAI with one interface",
   "type": "module",
   "main": "./dist/index.js",
