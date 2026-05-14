@@ -1,0 +1,43 @@
+{
+  "name": "capcay-llm",
+  "version": "0.1.0",
+  "description": "Lightweight unified LLM client for Node.js — Groq, Anthropic, OpenAI with one interface",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "llm",
+    "groq",
+    "anthropic",
+    "openai",
+    "ai",
+    "unified",
+    "client"
+  ],
+  "author": "caya8205-2",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "groq-sdk": "latest",
+    "openai": "^4.47.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.0"
+  }
+}
